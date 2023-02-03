@@ -1,3 +1,69 @@
 #root {
-  color: red;
+  color: #1b4965;
 }
+
+header{
+  padding: 20px;
+  background-color: #4f5d75;
+  /*position: fixed;*/
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header-ul{ 
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+nav ul li a{
+text-decoration: none;
+color: #ef8354;
+font-weight: 600;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  column-gap: 16px;
+}
+
+.episodeLengthContainer{
+  background-color: #ef8354;
+  padding: 20px;
+}
+
+#card-title{
+  color: #2d3142;
+  font-size: 20px;
+}
+
+p{
+  color: #2d3142;
+}
+
+#card-link{
+  color: #2d3142;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer{
+  padding: 20px;
+  background-color: #4f5d75;
+  /*position: fixed;*/
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  
+}
+
+footer p{
+  color: #ef8354;
+  font-size: 20px;
+}
+

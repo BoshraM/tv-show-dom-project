@@ -3,19 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Show Project | My Name (My GitHub username)</title>
+    <title>TV Show Project | Boshra Mahmoudi (BoshraM)</title>
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
+    <header>
+     
+      <nav>
+          <ul class="header-ul">
+            <li><a href="https://www.tvmaze.com/shows" target="_blank">Shows</a></li>
+            <li><a href="https://www.tvmaze.com/people" target="_blank">People</a></li>
+            <li><a href="https://www.tvmaze.com/networks" target="_blank">Networks</a></li>
+            <li><a href="https://www.tvmaze.com/webchannels" target="_blank">Web Channels</a></li>
+            <li><a href="https://www.tvmaze.com/articles" target="_blank">Articles</a></li>
+            <li><a href="https://www.tvmaze.com/schedule" target="_blank">Schedule</a></li>
+        </ul>
+      </nav>
+      <div class="input-container">
+        <input id="search-input" type="text" placeholder="seacr for episodes"/>
+        <select id="select-input"></select>
+      </div>
+    </header>
+    <div id="episodeLengthContainer" class="episodeLengthContainer">
+
+    </div>
+
     <div id="root">
     </div>
+    <footer>
+      <p>the data has (originally) come from <a href="https://www.tvmaze.com/" target="_blank"> TVMaze.com</a></p>
+    </footer>
 
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>
 
     <!-- Loads YOUR javascript code -->
     <script src="script.js"></script>
+
   </body>
 </html>
