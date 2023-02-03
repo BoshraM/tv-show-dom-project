@@ -5,9 +5,13 @@ function setup() {
 }
 
 function makePageForEpisodes(episodeList) {
+
   const rootElem = document.getElementById("root");
-  //rootElem.textContent = `Got ${episodeList.length} episode(s)`;
-   rootElem.innerText=""
+
+  let episodeLengthContainer=document.getElementById("episodeLengthContainer")
+  episodeLengthContainer.textContent = `Got ${episodeList.length} episode(s)`;
+  
+  rootElem.innerText=""
   rootElem.style.display="grid";
   rootElem.style.gridTemplateColumns = "repeat(auto-fit ,minmax(300px,1fr))";
   rootElem.style.columnGap= "30px"

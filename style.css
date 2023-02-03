@@ -30,11 +30,15 @@ font-weight: 600;
   flex-direction: row;
   justify-content: left;
   column-gap: 16px;
+}
 
+.episodeLengthContainer{
+  background-color: #ef8354;
+  padding: 20px;
 }
 
 #card-title{
-  color: #ef8354;
+  color: #2d3142;
   font-size: 20px;
 }
 
@@ -43,7 +47,7 @@ p{
 }
 
 #card-link{
-  color: #ef8354;
+  color: #2d3142;
   font-size: 16px;
   font-weight: 600;
 }
